@@ -1,6 +1,7 @@
 // import { IoMdContact } from "react-icons/io";
 import { useEffect, useRef, useState } from "react";
 import "./NavBar.css";
+import Home from "../Home";
 
 const NavBar = () => {
   const [state, setState] = useState(false);
@@ -8,12 +9,13 @@ const NavBar = () => {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "Customers", path: "javascript:void(0)" },
-    { title: "Careers", path: "javascript:void(0)" },
-    { title: "Guides", path: "javascript:void(0)" },
-    { title: "Partners", path: "javascript:void(0)" },
-    { title: "Teams", path: "javascript:void(0)" },
-    { title: "Blog", path: "javascript:void(0)" },
+    { title: "HOME", path: "javascript:void(0)" },
+    { title: "ABOUT US", path: "javascript:void(0)" },
+    { title: "UPCOMING TOURS", path: "javascript:void(0)" },
+    { title: "DESTINATIONS", path: "javascript:void(0)" },
+    { title: "HAPPY CUSTOMERS", path: "javascript:void(0)" },
+    { title: "PAYMENT", path: "javascript:void(0)" },
+    { title: "CONTACT", path: "javascript:void(0)" },
   ];
 
   useEffect(() => {
